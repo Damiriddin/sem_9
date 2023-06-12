@@ -4,7 +4,7 @@
 #define MAX_LINE_LENGTH 1000
 void tail(char *filename, int n);
 
-// изменения:s указаны проверка аргументов командной строки
+// изменения: указаны проверка аргументов командной строки
 
 // int argc, char *argv[] - аргументы камандной строки
 int main(int argc, char *argv[]) {
