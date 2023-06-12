@@ -88,6 +88,9 @@ int main(int argc, char *argv[]) {
 
     if(argc >= 3) {
     n = atoi(argv[2]);  // необязательный аргумент n - последние n  строки
+    if(n < 0){
+    printf("n cannot be negative!");
+    exit(-1);
     }
 
     tail(file, n); // теперь функции tail()  передается указатель на файл
